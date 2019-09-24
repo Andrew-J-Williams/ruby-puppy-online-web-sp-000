@@ -33,14 +33,14 @@ class Dog
   def self.print_all
 
     @@all.each do |dogs|
-      puts dogs.dog_name
+      puts dogs.dog_name # Goes through each element in the array and specifically calls the 'dog_name' portion, returning just the name
     end
 
   end
 
   def self.clear_all
 
-    @@all.clear
+    @@all.clear # The Ruby '.clear' method will clear out the contents of our array
 
   end
 
