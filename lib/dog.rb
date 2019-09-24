@@ -7,11 +7,11 @@ class Dog
 
   def save
 
-    @@all << self # Method that 
+    @@all << self # Method that shovels in every instance of self.
 
   end
 
-  def name
+  def name # Method that calls the name of the instance
 
     @dog_name
 
