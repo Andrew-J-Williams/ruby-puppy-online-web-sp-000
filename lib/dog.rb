@@ -6,12 +6,12 @@ class Dog
   @@all = []
 
   def save
-    
+
     @@all << self
-    
+
   end
 
-  def name 
+  def name
 
   end
 
