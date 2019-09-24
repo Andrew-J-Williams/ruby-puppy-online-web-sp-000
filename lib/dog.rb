@@ -19,7 +19,7 @@ class Dog
 
   def initialize(dog_name)
 
-    @dog_name = dog_name #
+    @dog_name = dog_name # We initialize our dog_name variable
     save
 
   end
