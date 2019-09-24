@@ -19,7 +19,7 @@ class Dog
 
   def initialize(dog_name)
 
-    name = dog
+    name = dog_name
     save
 
   end
