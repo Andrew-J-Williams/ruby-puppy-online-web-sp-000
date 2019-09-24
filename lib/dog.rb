@@ -3,11 +3,11 @@ class Dog
 
   attr_accessor :dog_name
 
-  @@all = []
+  @@all = [] # Our array that will hold all the dog names.
 
   def save
 
-    @@all << self
+    @@all << self # Method that 
 
   end
 
