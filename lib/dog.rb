@@ -12,7 +12,9 @@ class Dog
   end
 
   def name
+
     @dog_name
+    
   end
 
   def initialize(dog_name)
@@ -39,7 +41,7 @@ class Dog
   def self.clear_all
 
     @@all.clear
-    
+
   end
 
 end
