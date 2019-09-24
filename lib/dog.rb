@@ -13,7 +13,7 @@ class Dog
 
   def name # Method that calls the name of the instance
 
-    @dog_name = dog_name
+    @dog_name
 
   end
 
