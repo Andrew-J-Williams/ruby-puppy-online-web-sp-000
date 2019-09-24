@@ -14,7 +14,9 @@ class Dog
 
   def self.print_all
     @@all.each do |dogs|
-      
+      if dogs == @dog_name
+        puts dog_name
+      end
     end
 
   end
