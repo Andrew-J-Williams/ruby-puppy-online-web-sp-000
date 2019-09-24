@@ -20,7 +20,7 @@ class Dog
   def initialize(dog_name)
 
     @dog_name = dog_name # We initialize our dog_name variable
-    save
+    save # We call our save method to shovel the new dog_name into our array
 
   end
 
