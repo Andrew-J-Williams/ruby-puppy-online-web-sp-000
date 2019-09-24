@@ -1,6 +1,8 @@
 # Add your code here
 class Dog
 
+  attr_accessor :dog_name
+
   @@all = []
 
   def initialize(dog_name)
